@@ -1,0 +1,292 @@
+
+#content-wrapper-new-d {
+    background: linear-gradient(180deg, rgb(255 255 255) 15.0634765625%, #ffffffc4 80.2886962890625%), url(../images/bg-degree.jpg) fixed center center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.login {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px
+}
+
+.enuery-bg {
+    background: #f5f4f4
+}
+
+.login-wrap {
+    margin: 0 auto;
+    width: 55%;
+}
+
+.login-content {
+    overflow: hidden;
+    padding: 5px 20px 33px 20px;
+    box-shadow: 0 2px 4px 0px rgb(0 0 0 / 70%);
+    -webkit-box-shadow: 0 2px 4px 0px rgb(0 0 0 / 70%);
+
+}
+
+.jobapply {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0
+}
+
+.dcelogo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background: #103b6b;
+    border-radius: 5px
+}
+
+.gndcelogo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background: #aa7f55;
+    border-radius: 5px
+}
+
+.login ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+    .login ul li {
+        position: relative;
+        width: 100%
+    }
+
+.input-group-addon, .login input, .login input[type=submit], .login select, .login textarea {
+    width: 100%;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 17px 8px 8px;
+    outline: 0;
+    background: 0 0;
+    font-size: 12px;
+    border: 0;
+    border: 1px solid #ccc;
+    text-align: left
+}
+
+.date {
+    width: 100%
+}
+
+.input-group-addon {
+    width: 1%;
+    margin: 10px 0;
+    display: table-cell;
+    padding: 6px 8px;
+    outline: 0;
+    background: 0 0;
+    font-size: 12px;
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 10px
+}
+
+.login select {
+    display: inline-block;
+    padding: 0 8px;
+    line-height: 35px;
+    height: 35px;
+    background: url(../images/droparrow.png) no-repeat 98% center
+}
+
+    .login select option {
+        display: block;
+        line-height: 26px;
+        height: 32px;
+        outline: 0;
+        border: 0;
+        padding: 8px
+    }
+
+.login textarea {
+    resize: none
+}
+
+.login input[type=submit] {
+    cursor: pointer;
+    background: #510027;
+    border: 2px solid #510027;
+    color: #fff1cc;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 22px
+}
+
+    .login input[type=submit]:hover {
+        cursor: pointer;
+        background: #fff1cc;
+        border: 2px solid #510027;
+        color: #510027
+    }
+
+.gnsubmit {
+    background: #094790 !important;
+    border: 1px solid #094790 !important
+}
+
+    .gnsubmit:hover {
+        background: #00bcd4 !important;
+        border: 1px solid #00bcd4 !important
+    }
+
+.login input:required, .login select:required, .login textarea:required {
+    background: url(../images/red_asterisk.png) no-repeat 98% center
+}
+
+    .login input:required:valid, .login select:required:valid, .login textarea:required:valid {
+        background: url(../images/valid.png) no-repeat 98% center;
+        box-shadow: 0 0 5px #5cd053;
+        border-bottom-color: #28921f
+    }
+
+.login input:focus:invalid, .login select:focus:invalid, .login textarea:focus:invalid {
+    background: url(../images/invalid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-bottom-color: #b03535
+}
+
+.form_hint {
+    background: #d45252;
+    border-radius: 3px 3px 3px 3px;
+    color: #fff;
+    margin-left: 8px;
+    padding: 1px 6px;
+    z-index: 999;
+    position: absolute;
+    display: none;
+    top: -12px;
+    left: 0
+}
+
+    .form_hint::after {
+        top: 100%;
+        left: 0;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none
+    }
+
+    .form_hint::after {
+        border-top-color: #d45252;
+        border-width: 6px;
+        margin-left: 14px
+    }
+
+.login input:focus + .form_hint {
+    display: inline
+}
+
+.login input:required:valid + .form_hint {
+    background: #28921f
+}
+
+    .login input:required:valid + .form_hint::after {
+        border-top-color: #28921f
+    }
+
+.login select:focus + .form_hint {
+    display: inline
+}
+
+.login select:required:valid + .form_hint {
+    background: #28921f
+}
+
+    .login select:required:valid + .form_hint::after {
+        border-top-color: #28921f
+    }
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+    select::-ms-expand {
+        display: none
+    }
+
+.checkmail {
+    margin: 30px auto
+}
+
+.combodate select {
+    width: 30% !important
+}
+
+    .combodate select + span + select {
+        width: 30% !important
+    }
+
+        .combodate select + span + select + span + select {
+            width: 35% !important
+        }
+
+.label_display {
+    background: #d45252;
+    border-radius: 3px 3px 3px 3px;
+    color: #fff;
+    margin-left: 12px;
+    padding: 1px 6px;
+    z-index: 999;
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: 0;
+    font-size: 12px
+}
+
+    .label_display::after {
+        top: 100%;
+        left: 0;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none
+    }
+
+    .label_display::after {
+        border-top-color: #d45252;
+        border-width: 6px;
+        margin-left: 14px
+    }
+
+.submit-btn {
+    background: #ab1134 !important;
+    border: 1px solid #bd0730 !important;
+    border-radius: 5px !important;
+    color:#fff;
+}
+
+    .submit-btn:hover {
+        background: #ab1134 !important;
+        border: 1px solid #bd0730 !important;
+        color: #fff !important;
+    }
+
+@media (max-width:767px) {
+    .login-wrap {
+        margin: 0 auto;
+        width: 95%
+    }
+}

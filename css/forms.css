@@ -1,0 +1,48 @@
+.login input, .login textarea, .login select, .input-group-addon, .login input[type="submit"] {
+	width:100%;	
+	margin:0px 0 15px 0;
+	display:inline-block;
+	border-radius:5px;
+	padding:8px;
+	outline:none;
+	background:none;
+	font-size:12px;
+	border:0;
+	border-bottom:1px solid #CCC;
+}
+.login select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+.login select{
+	display:inline-block;
+	padding:0px 25px 0 8px;
+	line-height:35px;
+	height:35px;
+	background: url(../images/droparrow.png) no-repeat 98% center;
+}
+.login select option{
+	display:block;
+	line-height:26px;
+	height:32px;
+	outline:none;
+	border:0;
+	padding:8px;
+}
+ .login textarea {
+	 height:60px;
+	 resize:none;
+ }
+  .login input[type="submit"] {
+	  cursor:pointer;
+	  background:#0C55A9;
+	  border:1px solid #0C55A9;
+	  color:#FFF;
+  }
+   .login input[type="submit"]:hover {
+	  cursor:pointer;
+	  background:#3D97BB;
+	  border:1px solid #3D97BB;
+	  color:#FFF;
+  }

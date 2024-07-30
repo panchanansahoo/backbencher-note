@@ -1,0 +1,83 @@
+﻿#myCarousel .thumbnail {
+    margin-bottom: 0;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+}
+
+.carousel-control {
+    color: #fff;
+    top: 40%;
+    color: #fff;
+    bottom: auto;
+    padding-top: 4px;
+    width: 20px;
+    height: 20px;
+    text-shadow: none;
+    opacity: 1;
+}
+
+    .carousel-control:hover {
+        color:white;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        background-image: none !important;
+    }
+
+    .carousel-control.right {
+        left: auto;
+        right: -32px;
+    }
+
+    .carousel-control.left {
+        right: auto;
+        left: -32px;
+    }
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+    .carousel-indicators li {
+        border-radius: 0;
+        width: 10px;
+        height: 10px;
+        background: #ccc;
+        border: 1px solid #ccc;
+    }
+
+    .carousel-indicators .active {
+        width: 12px;
+        height: 12px;
+        background: #3276b1;
+        border-color: #3276b1;
+    }
+
+.wdc-carousel {
+    background-color:transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.wdc-thumbnail {
+    background-color: #ffd83c !important;
+    min-height: 350px;
+}
+.wdc-carousel h3{
+    font-size:16px;
+    text-align:center;
+    font-weight:600;
+
+}
+.wdc-activity-dt {
+    color: #b4043b;
+    font-weight: 600;
+    font-size: 14px;
+}
+.wdc-bt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
